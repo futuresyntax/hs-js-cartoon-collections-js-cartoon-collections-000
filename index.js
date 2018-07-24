@@ -8,6 +8,11 @@ function dwarfRollCall(dwarves) {
   
   
   return dwarfNumbers.join(' ') + " ";
+  for(let i=0; i<dwarves.length; i++) {
+    dwarfNumbers.push(i+1 + ". " + dwarves[i]);
+    
+    
+  }
 }
 
 function summonCaptainPlanet(planeteerCalls){
@@ -38,4 +43,3 @@ function findTheCheese (foods) {
     return 'no cheese!';
   }
 }
-learn submit
