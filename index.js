@@ -2,7 +2,7 @@
 function dwarfRollCall(dwarves) {
   let dwarfNumbers = []
   
-  for(let i= dwarves.lenght/2; i<dwarves.length/ 2; i++) {
+  for(let i= dwarves.length/2; i<dwarves.length; i++) {
     dwarfNumbers.push(i+1 + ". " + dwarves[i]);
   }
   
